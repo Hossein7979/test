@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     sendReceive receive;
     Client client;
     //commit
+    //hgh
 
 
     @Override

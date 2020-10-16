@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/nogre"
+    tools:context=".MainActivity">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blueon"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/nogre"
+        android:id="@+id/ibBlue"></ImageButton>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth`s List"
+        android:textSize="18dp"
+        android:onClick="showList"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/gray"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect to Server"
+        android:layout_gravity="center"
+        android:textSize="18dp"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/white"
+        android:onClick="conToServer"></Button>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/lvBlue"></ListView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write Something to send.."
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/etMessage"
+        android:textSize="16dp"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SEND MESSAGE"
+        android:textSize="15dp"
+        android:backgroundTint="#0099FF"
+        android:onClick="connecting"></Button>
+
+
+
+
+
+</LinearLayout>

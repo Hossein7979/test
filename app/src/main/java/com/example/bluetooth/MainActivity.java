@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     final int SEND_MESSAGE=2;
     sendReceive receive;
     Client client;
-
+    int git=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
